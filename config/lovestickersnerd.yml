@@ -1,0 +1,150 @@
+application:
+  domain: lovestickersnerd.com
+  name: 'Love Stickers Nerd'
+  logo: 'https://i.imgur.com/Y9rziLk.png'
+  favicon: 'https://i.imgur.com/Y9rziLk.png'
+  theme: bluegrey-lightgreen
+  showGitHubLinks: false
+  altcoinName: lovestickersnerd
+  privacyContactEmail: 'noreply@lovestickersnerd.com'
+  customMetricsPrefix: lovestickersnerd
+  chatBot:
+    name: 'Robocops'
+    greeting: "Prazer em conhecê-lo <customer-name>, eu sou <bot-name>"
+    trainingData: 'botDefaultTrainingData.json'
+    defaultResponse: "Desculpe, não consegui entender o que você estava tentando dizer"
+    avatar: 'https://cdn3.iconfinder.com/data/icons/robots-flat-collection/60/Robots_-_Flat_-_007_-_Robocop-512.png'
+  social:
+    twitterUrl: null
+    facebookUrl: null
+    slackUrl: null
+    redditUrl: null
+    pressKitUrl: null
+    questionnaireUrl: null
+  welcomeBanner:
+    showOnFirstStart: true
+    title: 'Bem vindo à Love Stickers Nerd'
+    message: "<p>Sendo um aplicativo da Web com um grande número de vulnerabilidades de segurança, a <strong>Love Stickers Nerd</strong> deve ser o oposto de uma prática recomendada ou aplicativo de modelo para desenvolvedores da Web: é uma conscientização, ferramenta de treinamento, demonstração e exercício para riscos de segurança em aplicativos da Web modernos."
+  cookieConsent:
+    backgroundColor: '#000000'
+    textColor: '#ffffff'
+    buttonColor: '#ffffff'
+    buttonTextColor: '#000000'
+    message: 'Este site não faz nada com os seus cookies!'
+    dismissText: 'Clique aqui para que nada aconteça'
+    linkText: 'Clique aqui pra ver algo curioso'
+    linkUrl: 'https://www.youtube.com/embed/7Y3WXXGTopw'
+  securityTxt:
+    contact: 'mailto:noreply@lovestickersnerd.com'
+    encryption: ~
+  easterEggPlanet:
+    name: 'Hackerman'
+    overlayMap: 'https://i.imgur.com/G7KqVLk.png'
+challenges:
+  xssBonusPayload: '<iframe width="560" height="315" src="https://www.youtube.com/embed/BYeam6xvjcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  safetyOverride: true
+hackingInstructor:
+  isEnabled: false
+  avatarImage: 'https://ph-files.imgix.net/901876fb-f043-45bb-bfc2-bea8f477e533?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop'
+products:
+  -
+    name: 'Encryption Is Not A Crime'
+    image : 'https://i.imgur.com/uLSvqvg.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+  -
+    name: 'Na minha máquina funciona'
+    image : 'https://i.imgur.com/jUobRdh.png'
+    description: 'Imagem meramente ilustrativa'
+    quantity: 2
+    price: 4.99
+  -
+    name: 'Octonauta'
+    image : 'https://i.imgur.com/jRbMsUR.png'
+    description: 'Imagem meramente ilustrativa'
+    quantity: 3
+    price: 4.99
+    reviews:
+      - { text: 'Live long and prosper!', author: jim }
+  -
+    name: 'Darkcat'
+    image : 'https://i.imgur.com/uadyaAJ.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+    quantity: 0
+    fileForRetrieveBlueprintChallenge: 'squareBox1-40x40x40.stl'
+    exifForBlueprintChallenge:
+      - ~
+  -
+    name: 'No Logs No Crime'
+    image : 'https://i.imgur.com/OrgsXOQ.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+    reviews:
+      - { text: 'One of my favorites!', author: admin }
+  -
+    name: 'In case of fire'
+    image : 'https://i.imgur.com/GRJTjFZ.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 3.99
+  -
+    name: 'Star Devops'
+    image : 'https://i.imgur.com/XtKjerb.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+  -
+    name: 'Robocop'
+    image : 'https://i.imgur.com/gM6y9uc.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.96
+    urlForProductTamperingChallenge: 'https://lovestickersnerd.com'
+  -
+    name: 'Code and Beers Deluxe'
+    image : 'https://i.imgur.com/zaLzpvM.png'
+    description: 'Imagem meramente ilustrativa'
+    limitPerUser: 2
+    price: 4.99
+    deluxePrice: 2.99
+  -
+    name: 'You are offline – Dino Chrome'
+    image : 'https://i.imgur.com/5xQmK3E.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+    reviews:
+      - { text: 'Leelas favorite!', author: bender }
+  -
+    name: 'Code and Beers Challenge'
+    image : 'https://i.imgur.com/zaLzpvM.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.99
+    keywordsForPastebinDataLeakChallenge:
+      - couatl
+      - rakshasa
+    reviews:
+      - { text: 'Bring back blanked memories (sic!) of DnD sessions all night long...', author: admin }
+  -
+    name: 'The Grinch'
+    image : 'https://i.imgur.com/iKQkyQN.png'
+    description: 'Imagem meramente ilustrativa'
+    price: 4.98
+    useForChristmasSpecialChallenge: true
+memories:
+  -
+    image: 'https://i.imgur.com/zaLzpvM.png'
+    caption: 'Code and Beers Challenge'
+    user: bjoernOwasp
+  -
+    image: 'https://i.imgur.com/iKQkyQN.png'
+    caption: 'The Grinch'
+    geoStalkingMetaSecurityQuestion: 14
+    geoStalkingMetaSecurityAnswer: 'The Grinch Challenge'
+  -
+    image: 'https://i.imgur.com/gM6y9uc.png'
+    caption: 'Robocop'
+    geoStalkingVisualSecurityQuestion: 10
+    geoStalkingVisualSecurityAnswer: 'Robocop'
+
+ctf:
+  showFlagsInNotifications: true
+  showCountryDetailsInNotifications: none
+  countryMapping: ~

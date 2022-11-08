@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  juiceshop:
+   container_name: lovestickersnerd
+   image: bkimminich/juice-shop
+   volumes:
+    - ./config/lovestickersnerd.yml:/juice-shop/config/lovestickersnerd.yml
+   ports:
+    - "3000:3000"
+   restart: always
+   environment:
+    NODE_ENV: lovestickersnerd
