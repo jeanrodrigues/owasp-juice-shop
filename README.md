@@ -32,7 +32,7 @@ Sendo um aplicativo da Web com um grande número de vulnerabilidades de seguran�
 ## Iniciando a aplicação:
 
 ```bash
-git clone https://github.com/jeanrafaellourenco/owasp-juice-shop.git
+git clone https://github.com/jeanrodrigues/owasp-juice-shop.git
 cd owasp-juice-shop/
 docker-compose up --build -d
 ```
