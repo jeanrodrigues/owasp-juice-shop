@@ -1,9 +1,9 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Problema encontrado
+about: Crie um relatório para nos ajudar a melhorar
 title: ''
 labels: ''
-assignees: ''
+assignees: jeanrodrigues
 
 ---
 
