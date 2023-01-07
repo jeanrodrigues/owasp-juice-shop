@@ -9,7 +9,7 @@ Sendo um aplicativo da Web com um grande número de vulnerabilidades de seguran�
 
 **Leia as recomendações de segurança [clicando aqui](./config/README.md).**  
 
-# Linux - Docker:
+# Linux - Docker
 
 <div style="display: inline_block"><br>
   <h3 align="left">Requisitos:</h3>
@@ -83,7 +83,7 @@ docker-compose up --force-recreate -d
 ip addr
 ```
 
-**Utilize o acesso a máquina virtual** para resolver o desafio 2. Broken Authentication/Desafio 1: Bruteforce de senha na conta do administrador.
+**Utilize o acesso a máquina virtual** para resolver o desafio 2. Broken Authentication/Bruteforce de senha na conta do administrador.
 
 Após iniciar a máquina virtual acesse no seu navegador utilizando o **ip mostrado no banner da máquina virtual**, ex: [http://192.168.1.125:3000/](http://192.168.1.125:3000/).  
 
