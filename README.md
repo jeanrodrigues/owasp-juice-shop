@@ -74,7 +74,6 @@ docker-compose up --force-recreate -d
 ![virtualbox](./imagens/virtualbox.png)
 
 **Observe no banner o endereço de IP atribuido a máquina.** Caso o endereço não apareça, você pode reiniciar a máquina ou obter o endereço depois de fazer login nela.  
-
 ## Usuário e senha
 - Login: `superusuario`
 - password: `superusuario`
