@@ -86,7 +86,8 @@ Usamos SQL Injection para fazer login na conta de administrador, mas ainda não 
     Caso o administrador use alguma senha que foi comprometida anteriormente, o ataque resultará em sucesso.
 
     No terminal acesse a pasta arquivos e execute o script disponivel com o comando: `time bash brute_force.sh`.  
-    Em menos de um minuto vamos quebrar a senha do administrador usando um ataque de força bruta. 
+    Em menos de um minuto vamos quebrar a senha do administrador usando um ataque de força bruta.  
+    
     Obs: Se estiver usando o virtualbox o script estará na pasta: `/home/superusuario/owasp-juice-shop/arquivos`  
 
     https://user-images.githubusercontent.com/22452663/199334466-072b8d2d-0570-49e8-870d-4dae55c32972.mp4
