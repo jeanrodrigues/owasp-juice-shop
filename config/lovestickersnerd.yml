@@ -25,15 +25,15 @@ application:
     showOnFirstStart: true
     title: 'Bem vindo à Love Stickers Nerd'
     message: "<p>Sendo um aplicativo da Web com um grande número de vulnerabilidades de segurança, a <strong>Love Stickers Nerd</strong> deve ser o oposto de uma prática recomendada ou aplicativo de modelo para desenvolvedores da Web: é uma conscientização, ferramenta de treinamento, demonstração e exercício para riscos de segurança em aplicativos da Web modernos."
-  cookieConsent:
-    backgroundColor: '#000000'
-    textColor: '#ffffff'
-    buttonColor: '#ffffff'
-    buttonTextColor: '#000000'
-    message: 'Este site não faz nada com os seus cookies!'
-    dismissText: 'Clique aqui para que nada aconteça'
-    linkText: 'Clique aqui pra ver algo curioso'
-    linkUrl: 'https://www.youtube.com/embed/7Y3WXXGTopw'
+  # cookieConsent:
+  #   backgroundColor: '#000000'
+  #   textColor: '#ffffff'
+  #   buttonColor: '#ffffff'
+  #   buttonTextColor: '#000000'
+  #   message: 'Este site não faz nada com os seus cookies!'
+  #   dismissText: 'Clique aqui para que nada aconteça'
+  #   linkText: 'Clique aqui pra ver algo curioso'
+  #   linkUrl: 'https://www.youtube.com/embed/7Y3WXXGTopw'
   securityTxt:
     contact: 'mailto:noreply@lovestickersnerd.com'
     encryption: ~
